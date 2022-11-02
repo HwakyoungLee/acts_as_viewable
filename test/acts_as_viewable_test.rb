@@ -2,7 +2,7 @@ require 'test_helper'
 
 class ActsAsViewableTest < ActiveSupport::TestCase
   def setup
-    @user = User.create(email: 'young@8curz.com', name: 'Hwakyoung Lee')
+    @user = User.create(email: 'a@test.com', name: 'Test')
     @page = Page.create(title: 'signup page')
   end
 
